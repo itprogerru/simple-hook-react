@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Login from './Login'
 import Register from './Register'
+import News from './news/News'
 
 const initialLocationsState = {
   latitude: null,
@@ -90,6 +91,9 @@ const App = () => {
       <Login/>
       <h2>Register</h2>
       <Register/>
+
+      <h2>News</h2>
+      <News />
       </>
       )
 }
